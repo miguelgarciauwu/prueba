@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+}
+body{
+    height: 0vh;
+    /* background-color: #1E8449; */
+    background-image:url("img/verde-oscuro.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#form{
+    width: 490px;
+    height: 200px;
+    position: absolute;
+    background-color: #fff;
+    border: 5px solid #4da352;
+    border-radius: 10px;
+    padding: 28px 28px;
+    top: 35%;
+    left:33%;
+    transform:translate(10%);
+    text-align: left;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+
+#verificar{
+    margin-top: 20px;
+    cursor: pointer;
+    border: solid 1px #000;
+    height: 30px;
+    background-color: #39793d;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    color: #fff;
+    position: absolute;
+    width: 250px;
+    top: 70px;
+    left:25%
+}
+#siguiente{
+    margin-top: 20px;
+    cursor: pointer;
+    border: solid 1px #000;
+    height: 30px;
+    background-color: #39793d;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    color: #fff;
+    position: absolute;
+    width: 250px;
+    top: 5%;
+    left:38%
+}
+#siguiente1{
+    margin-top: 20px;
+    cursor: pointer;
+    border: solid 1px #000;
+    height: 30px;
+    background-color: #39793d;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    color: #fff;
+    position: absolute;
+    width: 250px;
+    top: 8%;
+    left:45%
+}
+label{
+    position: relative;
+    left:20%;
+}
+#code{
+    left:28%;
+
+    position: relative;
+}
+h3{
+    position: absolute;
+    top:25px;
+    left:25%;
+    font-size: 25px;
+    color: #fff;
+
+}

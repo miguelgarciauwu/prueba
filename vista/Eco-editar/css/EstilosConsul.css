@@ -1,0 +1,55 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px solid #39793d; 
+}
+caption{
+    padding-bottom: 10px;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight:bold;
+}
+td,th{
+    border: 2px solid #39793d;
+}
+th{
+    font-family: 'Bowlby One SC', cursive;
+    background-color: #153b18;
+    color:#fff;
+}
+.id{
+    width: 15px;
+    text-align: center;
+}
+.titulo{
+    width: 190px;
+}
+.cuerpo{
+    overflow-y: scroll;
+    width: 480px;
+    height: 125px;
+    display: block;
+    border: 2px solid #39793d;
+}
+
+.img{
+    width: 150px;
+    padding-left: 50px;
+
+}
+.vid{
+    width: 150px;
+    padding-left: 50px;
+
+}
+.id_clasificacion{
+    text-align: center;
+    width: 100px;
+}
+.opcionesConsul1{
+    border-right: none;
+}
+.opcionesConsul2{
+    border-right: none;
+    border-left: none;
+}

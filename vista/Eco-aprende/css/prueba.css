@@ -1,0 +1,18 @@
+*{
+    background-color: antiquewhite;
+}
+.boton1{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(153, 151, 151);
+}
+.bloque1{
+    width:0px;
+    height: 0px;
+    background-color: rgb(218, 148, 148);
+    transition: 1s;
+}
+.bloque1.activo{
+    width: 150px;
+    height: 150px;
+}

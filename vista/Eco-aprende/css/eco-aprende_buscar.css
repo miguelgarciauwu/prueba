@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'fredoka one';
+   
+}
+body{
+background-image: url(../iconos/arbolesfondo.png);
+background-position: left;
+background-repeat: no-repeat;
+background-color: #faf7c4;
+height: 100uvh;
+background-attachment: fixed;
+background-clip: content-box;
+background-size: cover;
+}
+.Bloque{
+    background-color: rgba(175, 248, 165, 0.675);;
+}
+form {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+form input{
+    width:80%;
+    height:25px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgb(56, 54, 54);
+    font-size: 20px;
+    margin-left:10%;
+    display:inline-block;
+    transition: 1s;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+input:focus{
+    width:80%;
+    background-color: rgb(73, 151, 63);
+}
+form .title:hover{
+    background-color: rgb(88, 167, 72);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+h3{
+    padding:10px;
+    margin: 10px ;
+    display: inline-block;
+    border: solid 2px #000 ;
+    position :relative;
+    left:10px;
+    background-color: #fff;
+}
+h3 >b{
+    font-size: 30px;
+    
+}
+

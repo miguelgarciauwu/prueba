@@ -1,0 +1,239 @@
+
+
+
+.titulo{
+	color: #0D9AC0;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+/* header */ 
+header{
+	width: 100%;
+	height: 600px;
+	background: #43cea2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, hsl(210.2,73.5%,35.5%,0.500), hsl(161,58.6%,53.5%,0.500)),url(../iconos/eco-perri/portada1.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsl(210.2,73.5%,35.5%,0.500), hsl(161,58.6%,53.5%,0.500)),url(../iconos/eco-perri/portada1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+nav >a{
+	color: #fff;
+	font-weight: 300;
+	text-decoration:none;
+	margin-right: 10px;
+}
+nav >a:hover{
+
+	text-decoration:underline;
+	
+}
+header .textos-header{
+	display: flex;
+	height: 430px;
+	width: 100%;
+	align-items:left;
+	justify-content: center;
+	flex-direction: column;
+	text-align: left;
+	padding-left: 25px;
+	
+}
+
+.textos-header h1{
+	font-size: 80px;
+	color: #0D9AC0;
+}
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+}
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.contenedor-de-que-va{
+	display: flex;
+	justify-content: space-evenly;
+	background:  url(../iconos/eco-perri/portada2.jpg);
+	background-size: cover;
+	
+}
+.imagen-de-que-va{
+	width: 30%;
+	height: 450px;
+	
+}
+.de-que-va .contenido-textos{
+	color: #212F3C;
+	width: 60%;
+	padding: 15px 0px 30px 15px;
+	font-weight: 300;
+	text-align:justify;
+	
+}
+.de-que-va .titulo {
+	margin-bottom: 0px;
+	
+	background-color: rgb(147 202 248);
+}
+.contenido-textos h3{
+	margin-bottom: 15px;
+	
+	
+}
+.contenido-textos h3 span{
+	background: #10B03B;
+	color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	margin-left: 5px;
+}
+/* aprende*/
+.contenedora{
+	background-image: url(../iconos/fondo.jpg);
+	background-attachment: fixed;
+}
+.galeria-port{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.imagen-port{
+	width: 25%;
+	margin-bottom: 10px;
+	height: 250px;
+	position: relative;
+	box-shadow: 0 0 6px rgba( 0, 0, 0, .5);
+	}
+.imagen-port >img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.hover-galeria{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transform: scale(0);
+	background: hsla(144.4, 45.8%, 76.9% ,0.80);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.hover-galeria img{
+	width: 50px;
+	
+}
+.hover-galeria a{
+	 color: #000;
+	 text-decoration: none;
+	 
+	 
+}
+.imagen-port:hover .hover-galeria{
+	transform: scale(1);
+}
+
+/* seccion manualidades*/
+.manualidad .titulo{
+	margin-bottom: 0px;
+	text-align: left;
+	padding-left: 20px;
+}
+.manualidad{
+	background-image: url(../iconos/fondo.jpg);
+	background-attachment: fixed;
+}	
+.manualidad .manualidades{
+	display: flex;
+	justify-content: space-evenly;
+}
+.manualidades >img {
+	width:300px;
+	height:300px;
+	float: left;
+	padding: 0px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+.manualidad .contenido-textos1{
+	color: #fff;
+	width: 50%;
+	padding: 0px 10px 0px 0px;
+	text-align:justify;
+	display: inline-block;
+	
+}
+.manualidad .contenido-textos1 span{
+	background: #10B03B;
+	color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	margin-left: 5px;
+}
+/* seccion sobre nosotros*/
+.contenido-sobre h1{
+	font-size: 50px;
+	text-align: left;
+	padding-left: 100px;
+}
+.contenido-sobre {
+background: #f46b45;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-attachment: fixed;
+width: 100%;
+}
+.contenedor-sobre-nosotros{
+	display: flex;
+	justify-content: space-evenly;
+}
+.imagen{
+	padding: 0px;
+	margin: 0px;
+	
+}
+.contenedor sobre nosotros{
+	padding: 0px;
+}
+.contenido-sobre .contenido-textos{
+	color: #000;
+	width: 50%;
+	padding: 0px 5px 0px 100px;
+	text-align:left;
+	display: inline-block;
+}
+
+
+/*fin seccion manualidades*/
+
+
+

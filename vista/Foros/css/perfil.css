@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+.nav{
+    min-width: 640px;
+}
+.contenido{
+    padding-top: 20px;
+}
+.contenido-perfil{
+    background-color: rgb(85, 155, 155);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    min-width: 640px ;
+}
+
+.contenido .contenido-perfil .foto-content{
+    width:150px;
+    height:150px;
+    background-color: rgb(222, 241, 114);
+    padding: 10px;
+    margin-top: 3em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position:absolute;
+    left:10px;
+}
+.editar-perfil{
+    position:absolute;
+    width:80px;
+    height: 40px;
+    top:210px;
+    background-image:url(../iconos/lapiz.png);
+    background-size:40px,75px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.guardar-perfil{
+    position:absolute;
+    width:80px;
+    height: 40px;
+    top:160px;
+    background-image:url(../iconos/guardar.png);
+    background-size:32px,75px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.contenido-perfil label{
+    font-size: 20px;
+}
+
+
+.contenido-perfil .nombrep{
+    width:300px;
+    height: 35px;
+    background-color: #43bf51;
+    margin:1em;
+    padding:0.2em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top:0px;
+    left:180px;
+}
+.contenido-perfil .nombrep .form-datos{
+    margin-left: 18px;
+    width: 180px;
+    position:relative;
+    right: 0px;
+}
+
+
+.contenido-perfil .apellidos{
+    width:300px;
+    height: 35px;
+    background-color: #43bf51;
+    margin:1em;
+    padding:0.2em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top:50px;
+    left:180px;
+}
+.contenido-perfil .apellidos .form-datos{
+    position:relative;
+    right: -5px;
+    width: 180px;
+}
+.contenido-perfil .correo{
+    width:300px;
+    height: 35px;
+    background-color: #43bf51;
+    margin:1em;
+    padding:0.2em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top:100px;
+    left:180px;
+}
+.contenido-perfil .correo .form-datos{
+    position:relative;
+    right: -28px;
+    width: 180px;
+}
+.contenido-perfil .ciudad{
+    width:300px;
+    height: 35px;
+    background-color:  #43bf51;
+    margin:1em;
+    padding:0.2em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top:150px;
+    left:180px;
+}
+.contenido-perfil .ciudad .form-datos{
+    position:relative;
+    right: -27px;
+    width: 180px;
+}
+.contenido-perfil .pais{
+    width:300px;
+    height: 35px;
+    background-color:  #43bf51;
+    margin:1em;
+    padding:0.2em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top:200px;
+    left:180px;
+}
+.contenido-perfil .pais .form-datos{
+    position:relative;
+    right: -48px;
+    width: 180px;
+}
+.contenido-perfil .institucion{
+    width:300px;
+    height: 35px;
+    background-color:  #43bf51;
+    margin:1em;
+    padding:0.2em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top:250px;
+    left:180px;
+}
+.contenido-perfil .institucion .form-datos{
+    position:relative;
+    right: 0;
+    width: 180px;
+}
+.contenido-perfil .password{
+    width:300px;
+    height: 35px;
+    background-color:  #43bf51;
+    margin:1em;
+    padding:0.2em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top:250px;
+    left:180px;
+}
+.contenido-perfil .password .form-datos{
+    position:relative;
+    right: 0;
+    width: 180px;
+}
+.fondo-contenido{
+    width:100%;
+    height: 620px;
+    
+
+}
+.footer{
+    width:100%;
+}

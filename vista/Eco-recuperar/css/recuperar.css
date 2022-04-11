@@ -1,0 +1,54 @@
+*{
+    font-family: 'Fredoka One';
+}
+body{
+    background-image: url("../img/verde-oscuro.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    align-items: center;
+    justify-content: center;
+	align-items: center;
+}
+.mensaje{
+    margin-top: 270px;
+    margin-top: 270px;
+}
+.Form{
+    background-color: #fff;
+    margin-left: 430px;
+    margin-top: 200px;
+    border: 3px solid #4da352;
+    border-radius:5px;
+    display: block;
+    width: 400px;
+    height: 100px;
+    padding: 28px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #000;
+
+}
+.Form input{
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px #000;
+}
+.Form button{
+    padding: 5px;
+    align-items: center;
+    background-color: #39793d;
+}
+.Form button:hover{
+    background-color: #4da352;
+	color: #fff;
+    cursor: pointer;
+}
+.Form input,button{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+    margin-left: 5px;
+}

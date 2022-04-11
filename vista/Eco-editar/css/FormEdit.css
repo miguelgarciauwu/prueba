@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One SC', cursive;
+}
+body{
+    background-image:url("../Imagenes/verde-oscuro.jpg");
+    background-repeat: none;
+    background-size: 200%;
+    justify-content: left;
+    align-items: center;
+}
+.form{
+
+    width: 850px;
+    background-color: #fff;
+    position: absolute;
+    text-align: left;
+    padding: 28px;
+    border: 5px solid #4da352;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    margin-top: 100px;
+    margin-left: 500px;
+    transform:translate(-30%);
+}
+#input_cuerpo{
+    resize: none;
+    border: 2px solid #4da352 ;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.text_cancelar{
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    background-color: #39793d;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    color: #fff;
+    padding: 3px;
+    text-decoration: none;
+}
+input{
+    border: 2px solid #4da352;
+    width: 100%;
+    padding: 5px;
+    display: block;
+    border-radius: 10px;
+}
+
+
+    #input_imagen2{
+        width: 80%;
+        padding: 2px 8px;
+        border: none;
+    }
+
+    #input_video2{
+        width: 80%;
+        padding: 2px 8px;
+        border: none;
+    }
+
+.form button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    background-color: #39793d;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    color: #fff;
+    padding: 2px;
+}
+.form button:hover{
+    background-color: #4da352;
+}

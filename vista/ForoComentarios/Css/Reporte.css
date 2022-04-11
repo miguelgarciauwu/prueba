@@ -1,0 +1,47 @@
+.TextReporte{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 180%;
+    margin-left: 450px;
+    padding-right:20% ;
+    margin-top: -10%;
+    
+}
+/* Imagenes - gifs */
+#Rasca{
+    width: 200px;
+    height: 200px;
+    margin-left: 2%;
+    margin-top: -4%;
+}
+#Rasca2{
+    width: 200px;
+    height: 200px;
+    margin-left: 65%;
+    margin-top: -8%;
+}
+/* Cuadro de opciones */
+.Opciones{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+    margin-right: 20%;
+    height: 70%;
+    width: 90%;
+    
+}
+/* Boton de reportar */
+.btn-Reportado{
+    background:#92000A;
+    color:#FFFFFF;
+    width:48%;
+    height:30px;
+	transition: 1s ease all;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.btn-Reportado:hover{
+    cursor: pointer;
+	background-color: #CD000E;
+}

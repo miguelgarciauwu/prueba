@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bowlby One SC', cursive;
+}
+body{
+	height: 0vh;
+	/* background-color: #009900; */
+	background-image: url("Img/verde-oscuro.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.login{
+	height: 1px;
+	position: absolute
+}
+.formulario{
+	width: 400px;
+	position: absolute;
+	background-color: #fff;
+	border: 5px solid #4da352;
+	border-radius: 10px;
+	padding: 28px 28px;
+	top: 350px;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+}
+.formulario input,label,button{
+	display: block;
+	width: 100%;
+	margin: 5px 0;
+}
+.formulario input{
+	height: 40px;
+	border: 2px solid #4da352;
+	border-radius: 10px;
+	padding: 0 8px;
+}
+.formulario button{
+	margin-top:20px;
+	cursor: pointer;
+	border: none;
+	height: 40px;
+	background-color: #39793d;
+	box-shadow: 1px 1px 2px #000;
+	color: #fff;
+}
+.formulario button:hover{
+	background-color: #4da352;
+}
+.texto_prueba{
+	position: absolute;
+	margin-top: 200px;
+	margin-left:500px ;
+}
+.boton_regreso{
+	margin-top:-100px;
+    margin-left: 1150px;
+    position: absolute;
+	top: 8em;
+	left: auto;
+    box-sizing: border-box;
+    border: 5px solid #4da352;
+    padding: 10px;
+    background-color: #c2fbc5;
+    border-radius: 10px;
+	text-decoration:none;
+    color: #000;
+}
+.boton_regreso:hover{
+	background-color: #53e953;
+	color: #fff;
+}
+.No_sirvio{
+	background-color: #fff;
+    border: 5px solid #4da352;
+    border-radius: 10px;
+    text-align: center;
+    padding:  5px 5px 5px 5px;
+    width: 500px;
+    left: auto;
+    margin-top: 150px;
+    position: absolute;
+}
+.prueb-request{
+	top: auto;
+}
+.recuperar{
+	text-decoration: none;
+	color: #000;
+}

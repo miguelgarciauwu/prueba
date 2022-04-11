@@ -1,0 +1,117 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px solid #39793d;
+    background-color: #fff;
+}
+body{
+    background-image: url("verde-oscuro.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 220%;
+
+}
+caption{
+    padding-bottom: 10px;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight:bold;
+    font-size: 27px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+td,th{
+    border: 2px solid #39793d;
+}
+th{
+    font-family: 'Bowlby One SC', cursive;
+    background-color: #153b18;
+    color:#fff;
+}
+.id{
+    width: 15px;
+    text-align: center;
+}
+.titulo{
+    width: 190px;
+}
+.cuerpo{
+    overflow-y: scroll;
+    width: 480px;
+    height: 155px;
+    display: block;
+
+}
+
+.img{
+    width: 150px;
+    padding-left: 50px;
+
+}
+.vid{
+    width: 150px;
+    padding-left: 50px;
+
+}
+.id_clasificacion{
+    text-align: center;
+    width: 100px;
+}
+.opcionesConsul1{
+    border-right: none;
+}
+.opcionesConsul2{
+    border-right: none;
+    border-left: none;
+}
+.Pag{
+    text-align: center;
+    width: 17px;
+    margin-left: 2px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #39793d;
+    border-color: #153b18;
+    border-radius: 3px;
+    background-color: #fff;
+    padding:3px;
+}
+.Pag:hover{
+    cursor: pointer;
+    background-color: #4da352;
+}
+.Text{
+    margin-top: 5px;
+    font-family: 'Bowlby One SC', cursive;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.Botton1{
+    font-family: 'Bowlby One SC', cursive;
+    margin-bottom: 5px;
+    position: boxed;
+    text-decoration: none;
+    color:#000;
+    background-color: #fff;
+    border: 2px solid #39793d;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+.Botton1:hover{
+    cursor: pointer;
+    background-color: #4da352;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

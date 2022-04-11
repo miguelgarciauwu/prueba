@@ -1,0 +1,52 @@
+/* aprende*/
+.contenedora{
+	background-image: url(../iconos/fondo.jpg);
+	background-attachment: fixed;
+}
+.galeria-port{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.imagen-port{
+	width: 25%;
+	margin-bottom: 10px;
+	height: 250px;
+	position: relative;
+	box-shadow: 0 0 6px rgba( 0, 0, 0, .5);
+	}
+.imagen-port >img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.hover-galeria{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transform: scale(0);
+	background: hsla(144.4, 45.8%, 76.9% ,0.80);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.hover-galeria img{
+	width: 50px;
+	
+}
+.hover-galeria a{
+	 color: #000;
+	 text-decoration: none;
+	 
+	 
+}
+.imagen-port:hover .hover-galeria{
+	transform: scale(1);
+}

@@ -1,0 +1,357 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Fredoka One';
+}
+
+body{
+    background-image: url("../Imagenes/portada2.jpg");
+    background-attachment: fixed;
+}
+
+
+
+#ecolombia {
+  font-size: 35px;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+/*Encabezado de foros*/
+.Inicio {
+  padding: 0px;
+  margin-top: 1%;
+  height: 80%;
+  background-size: contain;
+  background-color: #39793d  ;
+}
+
+#Cerrar{
+  margin-left: 85%;
+  text-decoration: none;
+  color: black;
+}
+
+#Frase {
+  text-align: center;
+  margin-bottom: -50%;
+  max-width: 50%;
+  margin-top: 30%;
+  font-size: 25px;
+  margin-right: 50%;
+  padding: 7%;
+  font-family: cursive;
+  position: static;
+}
+#Titulo {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 90px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.mis {
+  margin-left: 40%;
+}
+
+
+#Misforos {
+  font-family: cursive;
+  font-size: 65%;
+  text-decoration: none;
+  color: black;
+}
+
+.MisForo:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.MisForo {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #c2fbc5;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 150%;
+  padding: 0%;
+  width: 30%;
+  margin-top: -15%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.MisForo span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.MisForo span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.MisForo:hover span {
+  padding-right: 25px;
+}
+
+.MisForo:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Imagen Ecoperri */
+#eco {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 1%;
+  width: 13%;
+}
+
+/* Boton Crear Foro*/
+#Crear {
+  font-family: cursive;
+  font-size: 65%;
+  text-decoration: none;
+  color: black;
+}
+
+.CrearForo:hover {
+  background-color: #c2fbc5;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.CrearForo {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #c2fbc5;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 150%;
+  padding: 0%;
+  width: 10%;
+  margin-left: 85%;
+  margin-top: -55%;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+.CrearForo span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.CrearForo span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 10%;
+  transition: 0.5s;
+}
+
+.CrearForo:hover span {
+  padding-right: 25px;
+}
+
+.CrearForo:hover span:after {
+  opacity: 1;
+  right: CrearForo;
+}
+#BuscarForo {
+  text-align: left;
+  margin-left: 85%;
+  font-size: 115%;
+  font-family: cursive;
+  border-image: round;
+  position: static;
+}
+/* Boton de la lupa para Buscar */
+.boton {
+  margin-left: -7px;
+  height: 25px;
+}
+
+.texto {
+  height: 2%;
+  margin-bottom: -22%;
+  size: 25%;
+}
+
+.label1 {
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+}
+
+.Lupa {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Cuadro para mostrar información del foro */
+.recuadro{
+  width: 70%;
+  padding: 40px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  background-color:#EAEAEA;
+  border: 4px solid #4da352;
+}
+
+.archivo{
+  width: 35%;
+  margin:auto;
+}
+
+.botones{
+  margin-left: 80%;
+  margin-bottom:20px;
+  text-align: right;
+}
+
+
+.cuadro1{
+  padding: 20px;
+  margin-top: 50px;
+  width: 90%;
+  border: 0.5px solid;
+  background-color: #FFFFFF;
+}
+
+/* Botones en foro */
+.Editar{
+  background:#39793d;
+  color:#FFFFFF ;
+  width:100px;
+  height:30px;
+  transition: 1s ease all;
+}
+
+.Editar:hover{
+  cursor: pointer;
+  background-color: #51A856;
+}
+
+.Eliminar{
+  background:#92000A ;
+  color:#FFFFFF;
+  width:100px;
+  height:30px;
+  transition: 1s ease all;
+}
+
+.Eliminar:hover{
+  cursor: pointer;
+  background-color: #CD000E;
+}
+/* Animación para confirmar eliminación */
+.overlay{
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  visibility: hidden;
+}
+
+.overlay.active{
+  visibility: visible;
+}
+
+
+.popup{
+	background-color:#EAEAEA;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,.8);
+	border-radius: 15px;
+	max-width: 40%;
+	border: 4px solid #4da352;
+	padding: 30px;
+	transition-duration: 600ms;
+  align-items: center;
+
+  transition: 1s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+}
+
+.Rasca{
+  transition: 2s ease all;
+  width: 70%;
+  margin-top: -13%;
+  margin-left: 14%;
+}
+
+.popup h3{
+  font-family: 'Fredoka One', cursive;
+  margin-bottom: 50px;
+	text-align: center;
+}
+
+.popup .btn-cancelar{
+  background:#39793d;
+  color:#FFFFFF ;
+  width:48%;
+  height:30px;
+	transition: 1s ease all;
+
+}
+
+.popup .btn-cancelar:hover{
+  cursor: pointer;
+	background-color: #51A856;
+}
+
+.btn-submit{
+  background:#92000A;
+  color:#FFFFFF;
+  width:48%;
+  height:30px;
+	transition: 1s ease all;
+}
+
+.btn-submit:hover{
+  cursor: pointer;
+	background-color: #CD000E;
+}
+
+.popup b{
+	font-family: 'Fredoka One', cursive;
+	font-weight: 200;
+}
+
+.popup.active{
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Diseño de pagina no eliminar */
+
+
+
+#footer {
+   position: fixed;
+   bottom:15px;
+   height:30px;
+   width:100%;
+}

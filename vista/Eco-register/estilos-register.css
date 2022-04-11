@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center; /*prueba  cambiar a left*/
+}
+
+body{
+    height: 0vh;
+    /* background-color: #1E8449; */
+
+    background-image:url("img/verde-oscuro.jpg");
+    background-repeat: repeat;
+    background-size: 150%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.register{
+    position: absolute;
+    z-index: 100;
+    top: 20%;
+    left: 33%;
+    height: 1px;
+}
+
+.form{
+    width: 490px;
+    position: absolute;
+    background-color: #fff;
+    border: 5px solid #4da352;
+    border-radius: 10px;
+    padding: 28px 28px;
+    top: -30px;
+    transform:translate(10%);
+    text-align: left;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.form input,label,button{
+    display: block;
+    width: 100%;
+    margin: 0px 0px;
+}
+#siguiente{
+    
+    cursor: pointer;
+    border: solid 1px #000;
+    height: 30px;
+    background-color: #10726c;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 68%);
+    color: #fff;
+    position: absolute;
+    z-index: 101;
+    left: 37.3%;
+    top: 52%;
+    width: 429px;
+    border-radius: 5px;
+}
+
+.form input{
+    height: 30px;
+    border: 2px solid #4da352;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+#input-foto{
+    width: 80%;
+    padding: 2px 8px;
+    border: none;
+}
+
+.form button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    background-color: #39793d;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    color: #fff;
+}
+.form button:hover{
+	background-color: #4da352;
+}
+#eco-perri{
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 650px;
+    height:550px;
+    width: 550px;
+}
+
+#eco-perri2{
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 8%;
+    height:550px;
+    width: 550px;
+}
+
+#correo{
+    position: absolute;
+    width: 425px;
+    height: 30px;
+    z-index: 101;
+    top: 44.4%;
+    left: 37.4%;
+    border-radius: 5px;
+}
+
+.Boton_regreso{
+    margin-top: 100px;
+    margin-left: 90%;
+    position: absolute;
+    box-sizing: border-box;
+    border: 5px solid #4da352;
+    padding: 10px;
+    background-color: #c2fbc5;
+    border-radius: 10px;
+
+}
+.Boton_regreso:hover{
+    background-color: #98fb98;
+}
+
+.regresar_h3{
+    text-decoration:none;
+    color: #000;
+}
+.email{
+    width: 490px;
+    position: absolute;
+    background-color: #fff;
+    border: 5px solid #4da352;
+    border-radius: 10px;
+    padding: 28px 28px;
+    top: 180px;
+    transform:translate(10%);
+    text-align: left;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.email input,label,button{
+    display: block;
+    width: 100%;
+    margin: 0px 0px;
+}
+.email input{
+    height: 30px;
+    border: 2px solid #4da352;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+
+
+.email button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    background-color: #39793d;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    color: #fff;
+}
+.email button:hover{
+	background-color: #4da352;
+}

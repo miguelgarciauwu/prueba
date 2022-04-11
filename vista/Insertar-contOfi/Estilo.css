@@ -1,0 +1,291 @@
+/*ARCHIVO EN GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One SC', cursive;
+}
+/*BODY*/
+body{
+    background-image:url("img/verde-oscuro.jpg");
+    background-repeat: none;
+    background-size: 200%;
+    justify-content: left;
+    align-items: center;
+}
+
+/*DIV*/
+.Crea-cont-oficial{
+    position: absolute;
+    height: 1px;
+}
+
+/*FORMULARIO*/
+.form{
+    width: 850px;
+    background-color: #fff;
+    position: absolute;
+    text-align: left;
+    padding: 28px;
+    border: 5px solid #4da352;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    margin-top: 470px;
+    margin-left: 230px;
+}
+    /*CAMPO TEXTAREA*/
+    #textarea-text{
+        resize: none;
+        border: 2px solid #4da352 ;
+        border-radius: 10px;
+        width: 100%;
+    }
+.form input,label,button{
+    display: block;
+    width: 100%;
+    margin: 0px 0px;
+}
+.form input{
+    height: 30px;
+    border: 2px solid #4da352;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+    /*INPUT QUE ALMACENA IMAGENES*/
+    #input-image{
+        width: 80%;
+        padding: 2px 8px;
+        border: none;
+    }
+    /*INPUT QUE ALMACENA LOS VIDEOS*/
+    #input-video{
+        width: 80%;
+        padding: 2px 8px;
+        border: none;
+    }
+    /*BOTÓN*/
+    .form button{
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+        height: 30px;
+        background-color: #39793d;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+        color: #fff;
+    }
+    .form button:hover{
+        background-color: #4da352;
+    }
+
+/*REGRESAR*/
+.Boton_regreso{
+    margin-top: 20px;
+    margin-left: 1150px;
+    position: absolute;
+    box-sizing: border-box;
+    border: 5px solid #4da352;
+    padding: 10px;
+    background-color: #c2fbc5;
+    border-radius: 10px;
+
+}
+.Boton_regreso:hover{
+    background-color: #98fb98;
+}
+
+/*ECO-LOGO*/
+#eco-logo{
+    width: 210px;
+    height: 70px;
+    background-color: #fff;
+    border: solid #fff 5px;
+    border-radius: 5px ;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-weight:  bolder;
+    box-shadow: 20px;
+}
+
+/*MENSAJE*/
+.message{
+    background-color: #fff;
+    border: 5px solid #4da352;
+    border-radius: 10px;
+    text-align: left;
+    padding:  20px 20px 20px 20px;
+    width: 850px;
+    margin-left: 230px;
+    margin-top: 150px;
+    position: absolute;
+}
+.li{
+    padding-left: 50px;
+}
+.regresar_h3{
+    text-decoration:none;
+    color: #000;
+}
+/*ECO-PERRI*/
+#eco-perri-mg{
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 198px;
+    margin-left: 850px;
+    height:200px;
+    width: 200px;
+}
+#eco-observador{
+    height: 200px;
+    width: 200px;
+    margin-left: 1055px;
+    transform: rotate(89deg);
+    margin-top: 800px;
+}
+/*TÍTULO FORM*/
+.titulo-form{
+    margin-top: 420px;
+    margin-left: 230px;
+    position: absolute;
+    color: #fff;
+
+}
+hr{
+    position: absolute;
+    margin-top: 520px;
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+}
+/*MENSAJE DE QUE FALTAN LLENAR CAMPOS*/
+.Error{
+
+    text-align: center;
+    width: 550px;
+    position: absolute;
+    margin-left: 497px;
+    margin-top: 50px;
+    text-align: auto;
+    background-color: #92000A;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.imgT{
+
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -430px;
+    text-align: auto;
+    background-color: #98fb98;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.noimg{
+
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -430px;
+    text-align: auto;
+    background-color: #92000A;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.tamImg{
+
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 710px;
+    text-align: auto;
+    background-color: #92000A;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.extI{
+
+    text-align: center;
+    width: 350px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 710px;
+    text-align: auto;
+    background-color: #92000A;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.extV{
+
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 740px;
+    text-align: auto;
+    background-color: #92000A;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.tamImg{
+
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 710px;
+    text-align: auto;
+    background-color: #92000A;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.noVid{
+
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -380px;
+    text-align: auto;
+    background-color: #92000A;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.VidT{
+
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -380px;
+    text-align: auto;
+    background-color: #98fb98;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+/*MENSAJE DE REGISTRO EXITOSO*/
+.Correct{
+    margin: inline-block;
+    text-align: center;
+    width: 550px;
+    position: absolute;
+    margin-left: 497px;
+    margin-top: 50px;
+    text-align: auto;
+    background-color: #98fb98;
+    border-radius: 05px;
+    border: solid #4da352;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}

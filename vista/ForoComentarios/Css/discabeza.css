@@ -1,0 +1,129 @@
+
+body{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.navegation{
+	z-index: 100;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+/*este es el problema*/
+nav{
+	background-color: rgba(0, 166, 255, 0.248);
+	width: 100%;
+   display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: row;
+ 	align-items: baseline;
+}
+
+nav >a{
+	font-family: 'Fredoka One';
+	color: #000;
+	font-weight: 300;
+	text-decoration:none;
+	margin-right: 10px;
+}
+nav >a:hover{
+	text-decoration:underline;
+}
+ .logo{
+	font-size: 2em;
+	display: inline-block;
+	margin:0;
+	padding:0;
+	padding-right:20px;
+}
+ .logo h3:hover{
+	color:black;
+	text-decoration:none;
+
+ }
+nav:hover{
+	background-color: rgba(0, 166, 255, 0.707);
+}
+.icono-nav-button {
+background-color: rgb(120, 196, 120);
+    background-image: url(../Imagenes/perfil.png);
+    background-size: 1.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3em;
+    width: 3em;
+    border-radius: 100px;
+	nav-right:1px;
+}
+.icono-nav-button hover{
+	background-color: rgb(70, 194, 70);
+}
+.icono-nav-bloque{
+	background-color: rgba(230, 48, 48, 0);
+	display:inline-block;
+	height: 0;
+	width: 0;
+	position:fixed;
+	right: 2px;
+	top:4.8em;
+	opacity:0;
+	transition-property: height;
+    transition-duration: 1s;
+    transition-property: width,opacity;
+    transition-delay:1s,2;
+}
+.icono-nav-bloque li{
+	list-style: none;
+	margin-bottom: 5px;
+}
+.icono-nav-bloque li >a{
+	text-decoration: none;
+
+}
+.icono-nav-bloque ul{
+	padding: 2px;
+	margin-left: 1px;
+}
+.icono-nav-bloque .perfil-fin{
+	margin-bottom: 0px;
+}
+.icono-nav-bloque.activo{
+	z-index: 150;
+	height: 150px;
+	width: 150px;
+	opacity:1;
+}
+
+.icono-nav-bloque #ingresado1{
+	border: 2px solid #000;
+	background-color: rgb(39, 104, 179);
+	text-decoration: none;
+	border-radius: 10px;
+	text-align: center;
+	transition-duration:1s;
+}
+.icono-nav-bloque #ingresado1 >a{
+	color:rgb(255, 255, 255);
+}
+.icono-nav-bloque #ingresado1:hover{
+	background-color: rgb(47, 88, 136);
+}
+.icono-nav-bloque #ingresado2{
+	border: 2px solid #000;
+	border-radius: 10px;
+	background-color: rgb(39, 104, 179);
+	color: aliceblue;
+	text-align: center;
+	transition-duration:1s;
+}
+.icono-nav-bloque #ingresado2:hover{
+	background-color: rgb(47, 88, 136);
+}
+.icono-nav-bloque #ingresado2 >a{
+	color:rgb(255, 255, 255);
+}

@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing:border-box;
+
+}
+body{
+  background-image:url(../iconos/verde-oscuro.jpg);
+}
+.nav{
+  min-width: 640px;
+}
+table{
+  background-color: #fff;
+  position:fixed;
+  top:250px;
+  left:180px;
+  border:solid 3px #1e5a00;
+  border-radius:5px;
+  border-collapse: collapse;
+  box-shadow: 2px 2px 2px 2px;
+
+}
+table th{
+  background-color: #153b18;
+  color: rgb(213, 228, 213);
+  padding:10px;
+  border:solid 3px #1e5a00;
+}
+table td{
+  width: 250px;
+  text-align:center;
+  border:solid 3px #1e5a00;
+}
+.entradas{
+  margin: 10px;
+}
+.users{
+  margin: 10px;
+}
+.foro{
+  margin: 10px;
+}
+table td .ref{
+  text-decoration:none;
+  color:rgb(0, 0, 0);
+  font-size:20px;
+}
+.footere{
+  width:100%;
+  position:absolute;
+  top:715px;
+}
+.footer{
+  width:100%;
+}
+.popup{
+	background-color:#EAEAEA;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,.8);
+	border-radius: 15px;
+	max-width: 40%;
+	border: 4px solid #4da352;
+	padding: 30px;
+	transition-duration: 600ms;
+  align-items: center;
+
+  transition: 1s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+}
+
+.popup h3{
+  font-family: 'Fredoka One', cursive;
+  margin-bottom: 50px;
+	text-align: center;
+}
+
+.popup .btn-com{
+    text-align: center;
+  background:#39793d;
+  color:#FFFFFF ;
+  width:48%;
+  height:30px;
+	transition: 1s ease all;
+
+}
+
+.popup .btn-com:hover{
+  cursor: pointer;
+	background-color: #51A856;
+}
+
+.popup .btn-cancelar{
+  text-align: center;
+background:#39793d;
+color:#FFFFFF ;
+margin-top: 15px;
+width:97%;
+height:30px;
+transition: 1s ease all;
+
+}
+
+.popup .btn-cancelar:hover{
+cursor: pointer;
+background-color: #51A856;
+}
+
+.btn-foro{
+  background:#39793d;
+  color:#FFFFFF;
+  width:48%;
+  height:30px;
+	transition: 1s ease all;
+}
+
+.btn-foro:hover{
+  cursor: pointer;
+	background-color: #51A856;
+}
+
+.popup b{
+	font-family: 'Fredoka One', cursive;
+	font-weight: 200;
+}
+
+.popup.active{
+  opacity: 1;
+  transform: scale(1);
+}
+table td .ref{
+  text-decoration:none;
+  color:#000;
+  font-size:20px;
+}
+.footere{
+  width:100%;
+  position:absolute;
+  top:715px;
+}
+.btn-ir{
+  background-color:rgb(191, 246, 250);
+  border: none;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;;
+}
+
+.overlay{
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  visibility: hidden;
+}
+
+.overlay.active{
+  visibility: visible;
+}
+
+.Img{
+  width: 48%;
+  transition: 1s;
+}
+
+.Img:hover{
+  transform: scale(1.05);
+}

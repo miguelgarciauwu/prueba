@@ -1,0 +1,45 @@
+
+
+
+.contenedor-de-que-va{
+	display: flex;
+	justify-content: space-evenly;
+	background:  url(../iconos/eco-perri/portada2.jpg);
+	background-size: cover;
+	
+}
+.imagen-de-que-va{
+	width: 30%;
+	height: 450px;
+	
+}
+.de-que-va .contenido-textos{
+	color: #212F3C;
+	width: 60%;
+	padding: 15px 0px 30px 15px;
+	font-weight: 300;
+	text-align:justify;
+	
+}
+.de-que-va .titulo {
+	margin-bottom: 0px;
+	
+	background-color: rgb(147 202 248);
+}
+.contenido-textos h3{
+	margin-bottom: 15px;
+	
+	
+}
+.contenido-textos h3 span{
+	background: #10B03B;
+	color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	margin-left: 5px;
+}

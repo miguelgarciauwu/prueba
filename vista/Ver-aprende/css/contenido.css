@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
+
+body{
+    background-image:url("../img/Verde.jpg");
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: 2px solid #39793d;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-bottom: auto;
+    font-family: 'Bowlby One SC', cursive;
+    /* border-collapse: collapse; */
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: 	#F5F5DC;
+}
+.Eco-perri{
+    position:fixed;
+    right: 1%;
+    bottom: 10%;
+}
+
+.title{
+        font-size:2em;
+        font:bold 5vw/1.6 'Signika', sans-serif;
+        user-select:none;
+        display: block;
+        position: relative;
+        transition: all, 2s;
+        margin: 0;
+        text-shadow: 0em 0em #333
+}
+.title:hover{
+    transform: scale(1.3);
+    text-shadow: 0.2em 0.2em rgb(184, 184, 184)
+    
+}
+.Img{
+
+    display:flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: center;
+}
+.Vid{
+    display:flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* .cuerpo{
+    margin: 20px;
+    
+} */
+    .texto1::first-letter{
+        font-size: 45px;
+    }
+    .texto{
+        padding: 30px;
+        margin:5px;
+        text-align: left;
+        line-height: 35px;
+        text-align: justify;
+        display: inline-block;
+        width: 45%;  
+}
+
+.texto1{
+    padding: 30px;
+    margin:5px;
+    text-align: left;
+    line-height: 35px;
+    text-align: justify;
+    display: inline-block;
+    width: 45%;  
+}
+.texto2{
+    padding: 30px;
+    margin:5px;
+    text-align: right;
+    line-height: 35px;
+    text-align: justify;
+    display: inline-block;
+    width: 45%;
+    border-left: solid #333 1px; 
+}
+

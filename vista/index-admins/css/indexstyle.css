@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family:'fredoka one';
+}
+.nav{
+	width: 100%;
+}
+.titulo{
+	color: #0D9AC0;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-width:1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.reserved #logo{
+	font-size: 1em;
+}
+
+.footer{
+	width:100%;
+}

@@ -1,0 +1,144 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px solid #39793d;
+    background-color: #fff;
+}
+body{
+    background-image: url("img/verde-oscuro.jpg");
+    background-repeat: no-repeat;
+    background-size: 220%;
+
+}
+caption{
+    padding-bottom: 10px;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight:bold;
+    font-size:25px;
+}
+td,th{
+    border: 2px solid #39793d;
+}
+th{
+    font-family: 'Bowlby One SC', cursive;
+    background-color: #153b18;
+    color:#fff;
+}
+.id{
+    width: 15px;
+    text-align: center;
+}
+.nombre{
+    width: 70px;
+    text-align: center;
+}
+
+.apellido{
+    width: 70px;
+    text-align: center;
+}
+.correo{
+    width: 190px;
+    text-align: center;
+}
+.ciudad{
+    width: 20px;
+    text-align: center;
+}
+.pais{
+    width: 70px;
+    text-align: center;
+}
+.institucion{
+    width: 190px;
+    text-align: center;
+}
+.user{
+    width: 190px;
+    text-align: center;
+}
+.pass{
+    width: 190px;
+    text-align: center;
+}
+.estado{
+    width: 190px;
+    text-align: center;
+}
+
+.img{
+    width: 150px;
+    padding-left: 10px;
+
+}
+
+.opcionesConsul1{
+    border-right: none;
+}
+.opcionesConsul2{
+    border-right: none;
+    border-left: none;
+}
+.Paginacion{
+    text-decoration: none;
+    color:#000;
+    display: inline-block;
+    background-color:#fff;
+    border: solid 2px #153b18;
+    border-radius: 3px;
+    padding: 5px;
+    margin:5px;
+}
+.Paginacion:hover{
+    background-color:#39793d;
+    cursor:pointer;
+}
+.Text{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.boton{
+    top: 10px;
+    position: absolute;
+    text-decoration: none;
+    color:#000;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight:bold;
+    background-color:#fff;
+    border: solid 2px #153b18;
+    border-radius: 3px;
+    padding: 5px;
+}
+.boton:hover{
+    background-color: #39793d;
+    cursor: pointer;
+}
+#consulta{
+    padding: 5px;
+    position:fixed;
+    border:solid 2px #153b18;
+    border-radius: 5px;
+    top: 20px;
+    right: 110px;
+}
+#buscar{
+    padding: 3px;
+    position:fixed;
+    border:solid 2px #153b18;
+    border-radius: 5px;
+    top: 20px;
+    right: 70px;
+}
+#reset{
+    padding: 3px;
+    position: fixed;
+    text-decoration:none;
+    color: #000;
+    background-color: #fff;
+    border:solid 2px #153b18;
+    border-radius: 5px;
+    right: 20px;
+    top:20px;
+}

@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	font-family:'fredoka one';
+}
+.nav{
+    position:absolute;
+	width: 100%;
+	margin-top: -8px;
+	
+}
+.nav-aprende{
+    position:absolute;
+	width:100%;
+	top:10%;
+	margin-left: 1%;
+}
+
+.footer{
+	width:100%;
+}
