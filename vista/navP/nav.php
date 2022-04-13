@@ -15,7 +15,7 @@
             {   if( ($_SESSION['crendenciales']['type'])==4)
                     {?><a href="../index-admins" class="logoI" ><img src='Imagenes/logoadmin.png' width='250px' height='50px'></a><?php
                     }else{?>
-                        <!-- Usuario -->
+                        <!-- Usuario del sistema  -->
                         <a href="index.php" class="logoI" ><img src='Imagenes/Logo.png' width='250px' height='50px'></a> <?php }?>
         <?php       }else{ ?>
                 <!-- Invitado -->
